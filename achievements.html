@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements | Shuvro Sarkar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .achievements {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 30px 20px;
+        }
+
+        .achievement-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .achievement-heading h1 {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        .achievement-heading p {
+            color: #aaa;
+            font-size: 16px;
+        }
+
+        .achievement-card {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding: 30px;
+            margin-bottom: 25px;
+            background: #171717;
+            border: 1px solid #333;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            border-color: #00d4ff;
+        }
+
+        .award-icon {
+            min-width: 75px;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #222;
+            border-radius: 15px;
+            font-size: 35px;
+        }
+
+        .achievement-info h2 {
+            font-size: 23px;
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        .achievement-info h4 {
+            color: #00d4ff;
+            margin-bottom: 10px;
+        }
+
+        .achievement-info p {
+            color: #bbb;
+            line-height: 1.6;
+        }
+
+        .award-status {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 6px 12px;
+            background: #123b2d;
+            color: #4ade80;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        @media(max-width: 600px) {
+            .achievement-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .achievement-heading h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+
+        <div class="achievement-heading">
+            <h1>My Achievements</h1>
+            <p>Milestones, recognition and accomplishments
+                throughout my academic journey.</p>
+        </div>
+
+        <!-- VU Block Star Award -->
+        <div class="achievement-card">
+
+            <div class="award-icon">🏆</div>
+
+            <div class="achievement-info">
+                <h2>VU Block Star Award</h2>
+
+                <h4>Victoria University | 2026</h4>
+
+                <p>
+                    Selected for the VU Block Star Award at
+                    Victoria University. This recognition
+                    marks an important milestone in my
+                    university journey and motivates me
+                    to continue growing academically and
+                    professionally.
+                </p>
+
+                <span class="award-status">
+                    ✓ Selected
+                </span>
+            </div>
+
+        </div>
+
+        <!-- Add future achievements here -->
+
+    </section>
+
+</body>
+</html>
